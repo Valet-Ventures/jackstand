@@ -1,21 +1,23 @@
-# Static site. No build step - Netlify just serves everything in public/.
+# Static site, no build step. Netlify serves public/ as-is:
+#   public/index.html          -> /
+#   public/<slug>/index.html   -> /<slug>
+# Directory-index resolution is native, so no redirect rules are needed.
+
 [build]
   publish = "public"
-  command = ""
-
-# Pretty URLs: /joes-garage serves public/joes-garage/index.html
-[build.processing]
-  skip_processing = false
 
 [[headers]]
   for = "/*"
   [headers.values]
     X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
 
-# Demo pages must never end up in Google. They are sales collateral,
-# not the client's real site, and duplicate content hurts them later.
-[[headers]]
-  for = "/*/*"
-  [headers.values]
-    X-Robots-Tag = "noindex, nofollow"
+# Keeping demo pages out of search is handled by
+# <meta name="robots" content="noindex, nofollow"> in
+# templates/<vertical>/index.html, which every generated page inherits.
+#
+# Deliberately NOT done with a header rule here. Netlify's `for` globs treat
+# `*` as a greedy splat, so a pattern intended to catch only /<slug>/ can also
+# match /, which would deindex the landing page - the one page that has to
+# rank. The per-page meta tag is exact and verifiable in the committed HTML.
