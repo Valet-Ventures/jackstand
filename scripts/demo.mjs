@@ -18,6 +18,7 @@ const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const TEMPLATES = join(ROOT, 'templates');
 const DEMOS = join(ROOT, 'demos');
 const PUBLIC = join(ROOT, 'public');
+const SITE = 'jackstand.org';
 
 const die = (m) => { console.error(`\n  ✗ ${m}\n`); process.exit(1); };
 const tmplPath = (t) => join(TEMPLATES, t, 'index.html');
@@ -82,7 +83,7 @@ function list() {
   console.log(`\n  templates: ${listDirs(TEMPLATES).join(', ') || 'none'}`);
   const slugs = existsSync(DEMOS) ? readdirSync(DEMOS).filter((f) => f.endsWith('.json')).map((f) => f.slice(0, -5)) : [];
   console.log(`  demos:     ${slugs.join(', ') || 'none'}`);
-  console.log(`  live at:   ${slugs.map((s) => 'goodstandings.com/' + s).join('\n             ') || '-'}\n`);
+  console.log(`  live at:   ${slugs.map((s) => SITE + '/' + s).join('\n             ') || '-'}\n`);
 }
 
 const [cmd, a, b] = process.argv.slice(2);
