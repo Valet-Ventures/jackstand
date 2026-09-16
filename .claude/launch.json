@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "jackstand",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "3211", "--directory", "/Users/jens/Documents/valet-ventures/jackstand/public"],
+      "port": 3211
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+# Static site. No build step - Netlify just serves everything in public/.
+[build]
+  publish = "public"
+  command = ""
+
+# Pretty URLs: /joes-garage serves public/joes-garage/index.html
+[build.processing]
+  skip_processing = false
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+# Demo pages must never end up in Google. They are sales collateral,
+# not the client's real site, and duplicate content hurts them later.
+[[headers]]
+  for = "/*/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
