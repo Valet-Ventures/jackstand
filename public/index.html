@@ -90,6 +90,14 @@ nav{position:sticky;top:0;z-index:60;background:var(--asphalt);border-bottom:var
   .dd{display:block}
   .dd-menu{left:auto;right:0;transform:none}
 }
+/* Phone: the Industries dropdown is a <details>, so the rule above never hid it,
+   and logo + dropdown + CTA overflowed the viewport by ~48px. */
+@media(max-width:560px){
+  .nav-links .dd{display:none}
+  .nav-links .btn{padding:10px 16px;font-size:13px}
+  .nav-inner{gap:12px}
+  .nav-links{min-width:0}
+}
 
 /* hero */
 .hero{padding:96px 0 90px;position:relative;overflow:hidden}
