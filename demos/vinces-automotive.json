@@ -33,5 +33,19 @@
   "HERO_IMG": "https://images.unsplash.com/photo-1618312980096-873bd19759a0?auto=format&fit=crop&w=1600&q=70",
   "IMG_1": "https://images.unsplash.com/photo-1676018366904-c083ed678e60?auto=format&fit=crop&w=900&q=70",
   "IMG_2": "https://images.unsplash.com/photo-1728474751252-9c085659f6ab?auto=format&fit=crop&w=900&q=70",
-  "IMG_3": "https://images.unsplash.com/photo-1591278169757-deac26e49555?auto=format&fit=crop&w=900&q=70"
+  "IMG_3": "https://images.unsplash.com/photo-1591278169757-deac26e49555?auto=format&fit=crop&w=900&q=70",
+  "ABOUT_IMG": "https://images.unsplash.com/photo-1698732018617-305c903f593a?auto=format&fit=crop&w=1100&q=70",
+  "ABOUT_BODY": "Vince's has been on Vanowen Street since 1981, veteran owned and operated. It is an AAA Approved Auto Repair facility with ASE Master Technician certification, an official Lamp and Brake Adjusting Station, and a State of California licensed smog check inspection and repair station.",
+  "TEAM_1_NAME": "Vince",
+  "TEAM_1_ROLE": "Owner",
+  "TEAM_1_INITIALS": "V",
+  "TEAM_1_PH": " known",
+  "TEAM_2_NAME": "Edward",
+  "TEAM_2_ROLE": "Customer service",
+  "TEAM_2_INITIALS": "E",
+  "TEAM_2_PH": " known",
+  "TEAM_3_NAME": "Your name here",
+  "TEAM_3_ROLE": "Tell us who to feature",
+  "TEAM_3_INITIALS": "?",
+  "TEAM_3_PH": " ph"
 }

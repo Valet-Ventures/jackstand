@@ -87,6 +87,22 @@
   .whygrid h3{margin-bottom:.4rem}
   .whygrid p{margin:0;font-size:.95rem}
 
+
+  .about-grid{display:grid;grid-template-columns:1fr;gap:2rem;align-items:center}
+  .about-grid > *{min-width:0}
+  .about-img{width:100%;aspect-ratio:4/3;object-fit:cover;border:var(--bd);
+    box-shadow:9px 9px 0 var(--accent)}
+  .team{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:1.8rem}
+  .person{border:var(--bd);padding:1rem .6rem;text-align:center;background:#fff;min-width:0}
+  .avatar{width:54px;height:54px;margin:0 auto .6rem;display:grid;place-items:center;
+    background:var(--accent);color:#fff;font-family:'Archivo Black',sans-serif;font-size:1.1rem;
+    border:var(--bd)}
+  .avatar.ph{background:#E6E3DC;color:#8d8a83}
+  .p-name{font-family:'Archivo Black',sans-serif;font-size:.85rem;text-transform:uppercase;
+    line-height:1.2}
+  .p-role{font-size:.74rem;margin-top:.3rem;font-weight:500}
+  .p-name.ph{color:#8d8a83;font-family:'DM Sans',sans-serif;font-style:italic;text-transform:none}
+
   .cols{display:grid;grid-template-columns:1fr;gap:2.4rem}
   .cols > *{min-width:0}
   .info div{padding-top:.9rem;padding-bottom:.9rem;border-bottom:1px solid #d8d4cb;font-size:.95rem}
@@ -117,6 +133,7 @@
     .strip div{border-top:0}
     .grid{grid-template-columns:repeat(3,1fr)}
     .whygrid{grid-template-columns:repeat(3,1fr);gap:2rem}
+    .about-grid{grid-template-columns:.9fr 1.1fr}
     .cols{grid-template-columns:1fr 1.05fr;gap:3.4rem}
     .callbar{display:none}
     body{padding-bottom:0}
@@ -140,6 +157,7 @@
     <nav class="nav-links">
       <a href="#services">Services</a>
       <a href="#why">Why us</a>
+      <a href="#about">About</a>
       <a href="#contact">Contact</a>
     </nav>
     <a class="btn btn-alt" href="tel:+18187052288">(818) 705-2288</a>
@@ -204,6 +222,37 @@
       <div><h3>You hear the price first</h3><p>The quote comes before the work, and nothing gets done without you agreeing to it.</p></div>
       <div><h3>Someone answers</h3><p>A person picks up during opening hours, and a missed call gets returned the same day.</p></div>
       <div><h3>The old parts stay</h3><p>Whatever came off the car is there to look at if you want to see it.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="about">
+  <div class="wrap">
+    <div class="head" style="margin-bottom:2rem">
+      <span class="kicker">About</span><h2>About the shop</h2>
+    </div>
+    <div class="about-grid">
+      <img class="about-img" src="https://images.unsplash.com/photo-1591278169757-deac26e49555?auto=format&fit=crop&w=1100&q=70" alt="" loading="lazy">
+      <div>
+        <p>A full service shop on Victory Boulevard staffed by certified mechanics, handling everything from routine oil changes through to brakes and diagnostics.</p>
+        <div class="team">
+          <div class="person">
+            <div class="avatar ph" aria-hidden="true">?</div>
+            <div class="p-name ph">Your name here</div>
+            <div class="p-role">Tell us who to feature</div>
+          </div>
+          <div class="person">
+            <div class="avatar ph" aria-hidden="true">?</div>
+            <div class="p-name ph">Your name here</div>
+            <div class="p-role">Tell us who to feature</div>
+          </div>
+          <div class="person">
+            <div class="avatar ph" aria-hidden="true">?</div>
+            <div class="p-name ph">Your name here</div>
+            <div class="p-role">Tell us who to feature</div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>

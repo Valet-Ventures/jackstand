@@ -33,5 +33,19 @@
   "HERO_IMG": "https://images.unsplash.com/photo-1780558852814-85d5753bf14b?auto=format&fit=crop&w=1600&q=70",
   "IMG_1": "https://images.unsplash.com/photo-1786489785101-df56fc2ad30c?auto=format&fit=crop&w=900&q=70",
   "IMG_2": "https://images.unsplash.com/photo-1786489785506-9c527aaf908d?auto=format&fit=crop&w=900&q=70",
-  "IMG_3": "https://images.unsplash.com/photo-1780558852670-3f49298ecc1f?auto=format&fit=crop&w=900&q=70"
+  "IMG_3": "https://images.unsplash.com/photo-1780558852670-3f49298ecc1f?auto=format&fit=crop&w=900&q=70",
+  "ABOUT_IMG": "https://images.unsplash.com/photo-1780558852814-85d5753bf14b?auto=format&fit=crop&w=1100&q=70",
+  "ABOUT_BODY": "GermanTek has been repairing German luxury vehicles in Woodland Hills since 2005, using the engineering techniques the marques expect. Some of the technicians bring over forty years of auto body and mechanical experience, and the shop is verified with the major insurers.",
+  "TEAM_1_NAME": "Your name here",
+  "TEAM_1_ROLE": "Tell us who to feature",
+  "TEAM_1_INITIALS": "?",
+  "TEAM_1_PH": " ph",
+  "TEAM_2_NAME": "Your name here",
+  "TEAM_2_ROLE": "Tell us who to feature",
+  "TEAM_2_INITIALS": "?",
+  "TEAM_2_PH": " ph",
+  "TEAM_3_NAME": "Your name here",
+  "TEAM_3_ROLE": "Tell us who to feature",
+  "TEAM_3_INITIALS": "?",
+  "TEAM_3_PH": " ph"
 }

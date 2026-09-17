@@ -82,6 +82,20 @@
   .why h3{margin-bottom:.5rem;font-size:1.2rem}
   .why p{margin:0;font-size:.97rem}
 
+
+  .about-grid{display:grid;grid-template-columns:1fr;gap:2.4rem;align-items:center}
+  .about-grid > *{min-width:0}
+  .about-img{width:100%;aspect-ratio:4/3;object-fit:cover}
+  .team{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem;margin-top:2rem}
+  .person{min-width:0}
+  .avatar{width:54px;height:54px;border-radius:50%;margin-bottom:.7rem;display:grid;
+    place-items:center;background:var(--accent);color:#fff;font-family:'Instrument Serif',serif;
+    font-size:1.2rem}
+  .avatar.ph{background:#E7E3D7;color:#A7A091}
+  .p-name{font-family:'Instrument Serif',serif;font-size:1.1rem;color:var(--ink);line-height:1.2}
+  .p-role{font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;margin-top:.3rem}
+  .p-name.ph{color:#A7A091;font-style:italic}
+
   .info{display:grid;grid-template-columns:1fr;gap:.2rem;margin-top:1.6rem}
   .info div{padding-top:.9rem;padding-bottom:.9rem;border-top:1px solid var(--line);font-size:.95rem}
   .info strong{display:block;color:var(--ink);font-size:.78rem;letter-spacing:.14em;
@@ -110,6 +124,7 @@
     .svc{grid-template-columns:1fr 1fr;gap:3.5rem}
     .svc:nth-child(even) img{order:2}
     .why{grid-template-columns:repeat(3,1fr);gap:2.6rem}
+    .about-grid{grid-template-columns:.9fr 1.1fr}
     .callbar{display:none}
     body{padding-bottom:0}
   }
@@ -132,6 +147,7 @@
     <nav class="nav-links">
       <a href="#services">Services</a>
       <a href="#why">Why us</a>
+      <a href="#about">About</a>
       <a href="#contact">Contact</a>
     </nav>
     <a class="btn" href="tel:{{PHONE_HREF}}">{{PHONE}}</a>
@@ -209,6 +225,37 @@
 </section>
 
 <hr class="rule">
+
+<section class="section" id="about">
+  <div class="wrap">
+    <div class="two" style="margin-bottom:2rem">
+      <h2>About the shop</h2>
+    </div>
+    <div class="about-grid">
+      <img class="about-img" src="{{ABOUT_IMG}}" alt="" loading="lazy">
+      <div>
+        <p>{{ABOUT_BODY}}</p>
+        <div class="team">
+          <div class="person">
+            <div class="avatar{{TEAM_1_PH}}" aria-hidden="true">{{TEAM_1_INITIALS}}</div>
+            <div class="p-name{{TEAM_1_PH}}">{{TEAM_1_NAME}}</div>
+            <div class="p-role">{{TEAM_1_ROLE}}</div>
+          </div>
+          <div class="person">
+            <div class="avatar{{TEAM_2_PH}}" aria-hidden="true">{{TEAM_2_INITIALS}}</div>
+            <div class="p-name{{TEAM_2_PH}}">{{TEAM_2_NAME}}</div>
+            <div class="p-role">{{TEAM_2_ROLE}}</div>
+          </div>
+          <div class="person">
+            <div class="avatar{{TEAM_3_PH}}" aria-hidden="true">{{TEAM_3_INITIALS}}</div>
+            <div class="p-name{{TEAM_3_PH}}">{{TEAM_3_NAME}}</div>
+            <div class="p-role">{{TEAM_3_ROLE}}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <section class="section" id="contact">
   <div class="wrap">

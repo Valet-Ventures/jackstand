@@ -33,5 +33,19 @@
   "HERO_IMG": "https://images.unsplash.com/photo-1578844251758-2f71da64c96f?auto=format&fit=crop&w=1600&q=70",
   "IMG_1": "https://images.unsplash.com/photo-1571335746824-742511d49bce?auto=format&fit=crop&w=900&q=70",
   "IMG_2": "https://images.unsplash.com/photo-1506022991996-a56ff643eade?auto=format&fit=crop&w=900&q=70",
-  "IMG_3": "https://images.unsplash.com/photo-1599082267768-4815b2ea6bd2?auto=format&fit=crop&w=900&q=70"
+  "IMG_3": "https://images.unsplash.com/photo-1599082267768-4815b2ea6bd2?auto=format&fit=crop&w=900&q=70",
+  "ABOUT_IMG": "https://images.unsplash.com/photo-1571335746824-742511d49bce?auto=format&fit=crop&w=1100&q=70",
+  "ABOUT_BODY": "New and used tires on Reseda Boulevard, fitted while you wait, open six days a week including all day Saturday.",
+  "TEAM_1_NAME": "Your name here",
+  "TEAM_1_ROLE": "Tell us who to feature",
+  "TEAM_1_INITIALS": "?",
+  "TEAM_1_PH": " ph",
+  "TEAM_2_NAME": "Your name here",
+  "TEAM_2_ROLE": "Tell us who to feature",
+  "TEAM_2_INITIALS": "?",
+  "TEAM_2_PH": " ph",
+  "TEAM_3_NAME": "Your name here",
+  "TEAM_3_ROLE": "Tell us who to feature",
+  "TEAM_3_INITIALS": "?",
+  "TEAM_3_PH": " ph"
 }

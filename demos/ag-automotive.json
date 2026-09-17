@@ -33,5 +33,19 @@
   "HERO_IMG": "https://images.unsplash.com/photo-1676018366904-c083ed678e60?auto=format&fit=crop&w=1600&q=70",
   "IMG_1": "https://images.unsplash.com/photo-1728474751252-9c085659f6ab?auto=format&fit=crop&w=900&q=70",
   "IMG_2": "https://images.unsplash.com/photo-1711386689622-1cda23e10217?auto=format&fit=crop&w=900&q=70",
-  "IMG_3": "https://images.unsplash.com/photo-1610092708835-af669294f3f3?auto=format&fit=crop&w=900&q=70"
+  "IMG_3": "https://images.unsplash.com/photo-1610092708835-af669294f3f3?auto=format&fit=crop&w=900&q=70",
+  "ABOUT_IMG": "https://images.unsplash.com/photo-1728474751252-9c085659f6ab?auto=format&fit=crop&w=1100&q=70",
+  "ABOUT_BODY": "A.G. Automotive and Diagnosis has been diagnosing the difficult faults in Reseda since 2015. ASE Master Technician certified, BBB accredited, and a member of the International Automotive Technicians' Network.",
+  "TEAM_1_NAME": "Tammy",
+  "TEAM_1_ROLE": "Service team",
+  "TEAM_1_INITIALS": "T",
+  "TEAM_1_PH": " known",
+  "TEAM_2_NAME": "Chuck",
+  "TEAM_2_ROLE": "Service team",
+  "TEAM_2_INITIALS": "C",
+  "TEAM_2_PH": " known",
+  "TEAM_3_NAME": "Abraham",
+  "TEAM_3_ROLE": "Service team",
+  "TEAM_3_INITIALS": "A",
+  "TEAM_3_PH": " known"
 }

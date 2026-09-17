@@ -56,6 +56,38 @@ real business at it**: it has slots for a star rating, review count, years in
 business and three named testimonials, and filling those for a shop we have not
 spoken to puts invented customers on a page carrying their name.
 
+## The About section and team names
+
+Each prospect page has an About block: a photo of a workshop, a paragraph of verified
+facts about that business, and three team cards.
+
+**Never pair a real person's name with a stock photo of a stranger.** That is the one
+mistake on these pages an owner spots in a second. Team cards therefore use a monogram
+avatar, never a face.
+
+Where a name is published by the business itself, it is used. Where it is not, the card
+is an explicit placeholder reading "Your name here", which is a better prompt than a
+made-up Mike and gives Johnny something to fill in at the counter.
+
+Names currently on the pages, with where each came from:
+
+| Shop | Name | Source | Confidence |
+|---|---|---|---|
+| Vince's | Vince (Owner) | Business name + review on their own site | good |
+| Vince's | Edward (Customer service) | Review on their own site | confirm role |
+| A.G. Automotive | Tammy, Chuck, Abraham | Review on their own site, roles unstated | confirm roles |
+| 26 Auto Body | Jason (Estimates) | Their published contact address | confirm role |
+| Valley Discount | Robert Hussain | Directory listing him as contact | confirm |
+
+Deliberately **not** used, and why:
+
+- **A1 Transmission**: reviews call the owner both "Mr. Young" and "Mr. Lee". Two
+  surnames for one person means we do not know it.
+- **Brake Land**: a single Yelp review mentions "Mike". One review is not a source.
+- **L.A. Sam's, John's**: "Sam" and "John" are in the business names, but nothing
+  confirms either is still there. A shop named after a founder who retired in 2004 is
+  a common thing.
+
 ## Photography
 
 Hero and service images are Unsplash URLs in each prospect's JSON (`HERO_IMG`,
