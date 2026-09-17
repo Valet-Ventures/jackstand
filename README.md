@@ -88,6 +88,20 @@ Deliberately **not** used, and why:
   confirms either is still there. A shop named after a founder who retired in 2004 is
   a common thing.
 
+## Maps
+
+Every prospect page has a "Find us" section with a Google map. It uses the keyless
+embed (`google.com/maps?q=...&output=embed`), so there is **no API key and no billing
+account** to set up. Verified rendering in a real browser rather than assumed.
+
+`MAP_QUERY` is generated from that shop's own `BUSINESS_NAME` and `ADDRESS` by the
+build, not typed by hand, so the pin and the printed address cannot drift apart. If
+you correct an address, rebuild and the map follows.
+
+Loading a keyless embed URL directly in a tab shows "The Google Maps Embed API must
+be used in an iframe". That is Google's guard against direct navigation and is
+expected; it works inside the page.
+
 ## Photography
 
 Hero and service images are Unsplash URLs in each prospect's JSON (`HERO_IMG`,
