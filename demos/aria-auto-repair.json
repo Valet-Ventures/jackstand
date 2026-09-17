@@ -1,5 +1,5 @@
 {
-  "_template": "auto-prospect",
+  "_template": "auto-editorial",
   "SLUG": "aria-auto-repair",
   "BUSINESS_NAME": "Aria Auto Repair",
   "BUSINESS_NAME_SHORT": "Aria",
@@ -29,5 +29,9 @@
   "WHY_2_BODY": "A person picks up during opening hours, and a missed call gets returned the same day.",
   "WHY_3_TITLE": "The old parts stay",
   "WHY_3_BODY": "Whatever came off the car is there to look at if you want to see it.",
-  "CONTACT_INTRO": "Call for anything urgent. For a quote or a booking the form reaches the desk directly."
+  "CONTACT_INTRO": "Call for anything urgent. For a quote or a booking the form reaches the desk directly.",
+  "HERO_IMG": "https://images.unsplash.com/photo-1591278169757-deac26e49555?auto=format&fit=crop&w=1600&q=70",
+  "IMG_1": "https://images.unsplash.com/photo-1711386689622-1cda23e10217?auto=format&fit=crop&w=900&q=70",
+  "IMG_2": "https://images.unsplash.com/photo-1728474751252-9c085659f6ab?auto=format&fit=crop&w=900&q=70",
+  "IMG_3": "https://images.unsplash.com/photo-1610092708835-af669294f3f3?auto=format&fit=crop&w=900&q=70"
 }

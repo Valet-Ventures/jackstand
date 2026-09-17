@@ -1,5 +1,5 @@
 {
-  "_template": "auto-prospect",
+  "_template": "auto-editorial",
   "SLUG": "26-auto-body",
   "BUSINESS_NAME": "26 Auto Body",
   "BUSINESS_NAME_SHORT": "26 Auto Body",
@@ -29,5 +29,9 @@
   "WHY_2_BODY": "A person picks up during opening hours, and a missed call gets returned the same day.",
   "WHY_3_TITLE": "The old parts stay",
   "WHY_3_BODY": "Whatever came off the car is there to look at if you want to see it.",
-  "CONTACT_INTRO": "Call for anything urgent. For a quote or a booking the form reaches the desk directly."
+  "CONTACT_INTRO": "Call for anything urgent. For a quote or a booking the form reaches the desk directly.",
+  "HERO_IMG": "https://images.unsplash.com/photo-1786489785506-9c527aaf908d?auto=format&fit=crop&w=1600&q=70",
+  "IMG_1": "https://images.unsplash.com/photo-1786489785101-df56fc2ad30c?auto=format&fit=crop&w=900&q=70",
+  "IMG_2": "https://images.unsplash.com/photo-1780558852670-3f49298ecc1f?auto=format&fit=crop&w=900&q=70",
+  "IMG_3": "https://images.unsplash.com/photo-1780558852671-e47265577239?auto=format&fit=crop&w=900&q=70"
 }

@@ -75,10 +75,15 @@
 
   /* ---- Hero ---- */
   .hero{background:var(--dark);color:#cfd4df;position:relative;overflow:hidden}
+  .hero::before{content:"";position:absolute;inset:0;background-image:url("{{HERO_IMG}}");
+    background-size:cover;background-position:center;opacity:.32;filter:grayscale(.4)}
+  /* Scrim so headline and body text stay legible over a bright photo. */
+  .hero .wrap::before{content:"";position:absolute;inset:0;z-index:-1;
+    background:linear-gradient(100deg,rgba(20,22,29,.92) 0%,rgba(20,22,29,.78) 48%,rgba(20,22,29,.35) 100%)}
   .hero::after{content:"";position:absolute;inset:0;
     background:radial-gradient(900px 400px at 75% 15%,color-mix(in srgb,var(--accent) 28%,transparent),transparent 70%);
     pointer-events:none}
-  .hero .wrap{position:relative;z-index:1;padding-top:clamp(3rem,9vw,5.5rem);
+  .hero .wrap{position:relative;z-index:1;isolation:isolate;padding-top:clamp(3rem,9vw,5.5rem);
     padding-bottom:clamp(3rem,9vw,5.5rem)}
   .hero h1{color:#fff;max-width:14ch}
   .eyebrow{display:inline-block;font-size:.8rem;font-weight:600;letter-spacing:.14em;
@@ -96,6 +101,9 @@
   .card{border:1px solid var(--line);border-radius:var(--radius);padding:1.6rem;background:#fff}
   .card h3{margin-bottom:.5rem}
   .card p{margin:0;font-size:.95rem}
+  .card{padding:0;overflow:hidden}
+  .card-img{width:100%;aspect-ratio:16/10;object-fit:cover;display:block;background:#e9ecf1}
+  .card-body{padding:1.5rem}
   .card .ico{width:38px;height:38px;border-radius:8px;display:grid;place-items:center;
     background:color-mix(in srgb,var(--accent) 12%,#fff);color:var(--accent);margin-bottom:1rem}
   .section-head{max-width:56ch;margin-bottom:2.5rem}
@@ -197,19 +205,25 @@
     </div>
     <div class="grid">
       <div class="card">
-        <div class="ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm1 15h-2v-2h2zm0-4h-2V7h2z"/></svg></div>
-        <h3>{{SERVICE_1_TITLE}}</h3>
-        <p>{{SERVICE_1_BODY}}</p>
+        <img class="card-img" src="{{IMG_1}}" alt="" loading="lazy">
+        <div class="card-body">
+          <h3>{{SERVICE_1_TITLE}}</h3>
+          <p>{{SERVICE_1_BODY}}</p>
+        </div>
       </div>
       <div class="card">
-        <div class="ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm1 15h-2v-2h2zm0-4h-2V7h2z"/></svg></div>
-        <h3>{{SERVICE_2_TITLE}}</h3>
-        <p>{{SERVICE_2_BODY}}</p>
+        <img class="card-img" src="{{IMG_2}}" alt="" loading="lazy">
+        <div class="card-body">
+          <h3>{{SERVICE_2_TITLE}}</h3>
+          <p>{{SERVICE_2_BODY}}</p>
+        </div>
       </div>
       <div class="card">
-        <div class="ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm1 15h-2v-2h2zm0-4h-2V7h2z"/></svg></div>
-        <h3>{{SERVICE_3_TITLE}}</h3>
-        <p>{{SERVICE_3_BODY}}</p>
+        <img class="card-img" src="{{IMG_3}}" alt="" loading="lazy">
+        <div class="card-body">
+          <h3>{{SERVICE_3_TITLE}}</h3>
+          <p>{{SERVICE_3_BODY}}</p>
+        </div>
       </div>
     </div>
   </div>
@@ -222,9 +236,9 @@
       <p>{{WHY_INTRO}}</p>
     </div>
     <div class="grid">
-      <div class="card"><h3>{{WHY_1_TITLE}}</h3><p>{{WHY_1_BODY}}</p></div>
-      <div class="card"><h3>{{WHY_2_TITLE}}</h3><p>{{WHY_2_BODY}}</p></div>
-      <div class="card"><h3>{{WHY_3_TITLE}}</h3><p>{{WHY_3_BODY}}</p></div>
+      <div class="card" style="padding:1.6rem"><h3>{{WHY_1_TITLE}}</h3><p>{{WHY_1_BODY}}</p></div>
+      <div class="card" style="padding:1.6rem"><h3>{{WHY_2_TITLE}}</h3><p>{{WHY_2_BODY}}</p></div>
+      <div class="card" style="padding:1.6rem"><h3>{{WHY_3_TITLE}}</h3><p>{{WHY_3_BODY}}</p></div>
     </div>
   </div>
 </section>

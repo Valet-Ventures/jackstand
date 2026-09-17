@@ -5,154 +5,120 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
 <title>Aria Auto Repair | Straight answers on what your car needs in Reseda</title>
-<meta name="description" content="Aria Auto Repair. A full service shop on Reseda Blvd handling cars, trucks and SUVs, foreign and domestic, with the diagnosis explained before the work starts. Serving Reseda and the surrounding area. Call (818) 984-8853.">
+<meta name="description" content="Aria Auto Repair. A full service shop on Reseda Blvd handling cars, trucks and SUVs, foreign and domestic, with the diagnosis explained before the work starts. Serving Reseda. Call (818) 984-8853.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   :root{
     --accent:#0F766E;
-    --ink:#11131a;
-    --body:#4a5060;
-    --line:#e3e6ec;
-    --bg:#ffffff;
-    --bg-alt:#f6f7f9;
-    --dark:#14161d;
-    --radius:10px;
-    --maxw:1120px;
+    --paper:#FBFAF7; --ink:#16150F; --body:#57544A; --line:#E2DED2;
+    --maxw:1080px;
   }
   *{box-sizing:border-box}
   html{scroll-behavior:smooth}
-  body{
-    margin:0;font-family:Inter,system-ui,-apple-system,sans-serif;
-    color:var(--body);background:var(--bg);line-height:1.6;
-    -webkit-font-smoothing:antialiased;
-  }
-  h1,h2,h3,.display{font-family:'Barlow Condensed',Impact,sans-serif;color:var(--ink);
-    line-height:1.05;letter-spacing:-.01em;text-transform:uppercase;margin:0}
-  h1{font-size:clamp(2.4rem,7vw,4.2rem)}
-  h2{font-size:clamp(1.9rem,4.5vw,2.8rem)}
-  h3{font-size:1.2rem;letter-spacing:.02em}
+  body{margin:0;font-family:Inter,system-ui,sans-serif;background:var(--paper);color:var(--body);
+    line-height:1.7;font-size:17px;-webkit-font-smoothing:antialiased;padding-bottom:56px}
+  h1,h2,h3{font-family:'Instrument Serif',Georgia,serif;font-weight:400;color:var(--ink);
+    line-height:1.08;letter-spacing:-.01em;margin:0}
+  h1{font-size:clamp(2.6rem,8vw,5rem)}
+  h2{font-size:clamp(1.9rem,4.4vw,3rem)}
+  h3{font-size:1.35rem}
   p{margin:0 0 1rem}
   a{color:inherit}
   img{max-width:100%;display:block}
-  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 20px}
-  .section{padding:clamp(3rem,8vw,5.5rem) 0}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding-left:22px;padding-right:22px}
+  .section{padding-top:clamp(3.5rem,9vw,6.5rem);padding-bottom:clamp(3.5rem,9vw,6.5rem)}
+  .rule{border:0;border-top:1px solid var(--line);margin:0}
 
-  /* ---- Jackstand preview bar (remove when the client buys) ---- */
-  .gs-bar{
-    background:var(--dark);color:#fff;font-size:.82rem;padding:.6rem 0;
-    position:sticky;top:0;z-index:60;
-  }
-  .gs-bar .wrap{display:flex;gap:.75rem;align-items:center;justify-content:center;
-    flex-wrap:wrap;text-align:center}
-  .gs-bar strong{font-weight:600}
+  .gs-bar{background:var(--ink);color:#EDE9DD;font-size:.8rem;padding-top:.6rem;padding-bottom:.6rem;
+    position:sticky;top:0;z-index:60}
+  .gs-bar .wrap{display:flex;gap:.6rem;align-items:center;justify-content:center;flex-wrap:wrap;
+    text-align:center;min-width:0}
   .gs-bar a{color:#fff;text-decoration:underline;text-underline-offset:3px;white-space:nowrap}
 
-  /* ---- Header ---- */
-  header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:50}
-  .gs-bar + header{top:38px}
+  header{background:var(--paper);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:50}
+  .gs-bar + header{top:36px}
   .nav{display:flex;align-items:center;justify-content:space-between;gap:1rem;
-    padding-top:.9rem;padding-bottom:.9rem}
-  /* The sticky call bar covers phoning on mobile, so the header button would only
-     crowd a long business name out of the 20px gutter. Desktop brings it back. */
-  .nav > .btn{display:none}
-  .brand{font-family:'Barlow Condensed',sans-serif;font-size:1.5rem;font-weight:700;
-    text-transform:uppercase;color:var(--ink);text-decoration:none;letter-spacing:.01em;
-    min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-  .brand span{color:var(--accent)}
-  .nav-links{display:none;gap:1.75rem;font-size:.92rem;font-weight:500}
-  .nav-links a{text-decoration:none;color:var(--body)}
+    padding-top:1.05rem;padding-bottom:1.05rem}
+  .brand{font-family:'Instrument Serif',Georgia,serif;font-size:1.6rem;color:var(--ink);
+    text-decoration:none;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .nav-links{display:none;gap:2rem;font-size:.92rem}
+  .nav-links a{text-decoration:none}
   .nav-links a:hover{color:var(--accent)}
-  .btn{
-    display:inline-block;background:var(--accent);color:#fff;text-decoration:none;
-    font-weight:600;padding:.8rem 1.4rem;border-radius:var(--radius);
-    font-size:.95rem;white-space:nowrap;border:2px solid var(--accent);
-  }
-  .btn:hover{filter:brightness(.92)}
-  .btn-ghost{background:transparent;color:var(--ink);border-color:var(--line)}
-  .btn-lg{padding:1rem 1.8rem;font-size:1.05rem}
+  .nav > .btn{display:none}
+  .btn{display:inline-block;background:var(--ink);color:var(--paper);text-decoration:none;
+    font-weight:500;padding:.85rem 1.6rem;font-size:.95rem;white-space:nowrap;
+    border:1px solid var(--ink);border-radius:2px;cursor:pointer}
+  .btn:hover{background:var(--accent);border-color:var(--accent)}
+  .btn-ghost{background:transparent;color:var(--ink)}
+  .btn-lg{padding:1rem 2rem;font-size:1rem}
 
-  /* ---- Hero ---- */
-  .hero{background:var(--dark);color:#cfd4df;position:relative;overflow:hidden}
-  .hero::after{content:"";position:absolute;inset:0;
-    background:radial-gradient(900px 400px at 75% 15%,color-mix(in srgb,var(--accent) 28%,transparent),transparent 70%);
-    pointer-events:none}
-  .hero .wrap{position:relative;z-index:1;padding-top:clamp(3rem,9vw,5.5rem);
-    padding-bottom:clamp(3rem,9vw,5.5rem)}
-  .hero h1{color:#fff;max-width:14ch}
-  .eyebrow{display:inline-block;font-size:.8rem;font-weight:600;letter-spacing:.14em;
-    text-transform:uppercase;color:var(--accent);margin-bottom:1rem}
-  .hero p.lede{font-size:clamp(1.02rem,2.2vw,1.2rem);max-width:52ch;margin:1.25rem 0 2rem}
-  .hero-cta{display:flex;gap:.75rem;flex-wrap:wrap}
-  .hero-cta .btn-ghost{color:#fff;border-color:rgba(255,255,255,.28)}
-  .trust{display:flex;gap:1.5rem;flex-wrap:wrap;margin-top:2.5rem;
-    padding-top:1.75rem;border-top:1px solid rgba(255,255,255,.12);font-size:.88rem}
-  .trust div{display:flex;align-items:center;gap:.5rem}
-  .trust svg{flex:none;color:var(--accent)}
+  .hero .wrap{padding-top:clamp(2.5rem,7vw,4.5rem);padding-bottom:clamp(1.5rem,4vw,2.5rem)}
+  .eyebrow{display:block;font-size:.74rem;letter-spacing:.2em;text-transform:uppercase;
+    color:var(--accent);margin-bottom:1.6rem;font-weight:600}
+  .hero h1{max-width:13ch}
+  .hero .lede{font-size:clamp(1.05rem,2.1vw,1.25rem);max-width:46ch;margin:1.6rem 0 2.2rem}
+  .hero-cta{display:flex;gap:.7rem;flex-wrap:wrap}
+  .hero-img{width:100%;aspect-ratio:16/9;object-fit:cover}
+  .facts{display:grid;grid-template-columns:1fr;gap:0}
+  .fact{padding-top:1.1rem;padding-bottom:1.1rem;border-top:1px solid var(--line);
+    font-size:.9rem;display:flex;gap:.7rem;align-items:baseline}
+  .fact b{font-family:'Instrument Serif',serif;font-size:1.05rem;color:var(--accent);flex:none}
 
-  /* ---- Services ---- */
-  .grid{display:grid;gap:1.25rem;grid-template-columns:1fr}
-  .card{border:1px solid var(--line);border-radius:var(--radius);padding:1.6rem;background:#fff}
-  .card h3{margin-bottom:.5rem}
-  .card p{margin:0;font-size:.95rem}
-  .card .ico{width:38px;height:38px;border-radius:8px;display:grid;place-items:center;
-    background:color-mix(in srgb,var(--accent) 12%,#fff);color:var(--accent);margin-bottom:1rem}
-  .section-head{max-width:56ch;margin-bottom:2.5rem}
-  .section-head p{margin-top:.9rem}
-  .alt{background:var(--bg-alt)}
+  .lead{font-size:clamp(1.15rem,2.4vw,1.5rem);line-height:1.5;color:var(--ink);max-width:34ch}
+  .two{display:grid;grid-template-columns:1fr;gap:2.2rem;align-items:start}
+  .two > *{min-width:0}
 
-  /* ---- Reviews ---- */
-  .quote{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:1.6rem}
-  .stars{color:#f5a623;letter-spacing:2px;margin-bottom:.75rem;font-size:.95rem}
-  .quote p{font-size:1rem;color:var(--ink)}
-  .quote cite{font-style:normal;font-size:.88rem;font-weight:600;color:var(--body)}
+  .svc{display:grid;grid-template-columns:1fr;gap:1.4rem;align-items:center;
+    padding-top:2.6rem;padding-bottom:2.6rem;border-top:1px solid var(--line)}
+  .svc > *{min-width:0}
+  .svc img{width:100%;aspect-ratio:4/3;object-fit:cover}
+  .svc .num{font-family:'Instrument Serif',serif;font-style:italic;color:var(--accent);
+    font-size:1.1rem;margin-bottom:.4rem}
 
-  /* ---- Contact ---- */
-  .contact-grid{display:grid;gap:2.5rem;grid-template-columns:1fr}
-  .info-row{display:flex;gap:.9rem;padding:1rem 0;border-bottom:1px solid var(--line);align-items:flex-start}
-  .info-row:last-child{border-bottom:0}
-  .info-row svg{flex:none;color:var(--accent);margin-top:3px}
-  .info-row strong{display:block;color:var(--ink);font-size:.95rem}
-  .info-row span{font-size:.93rem}
-  form{display:grid;gap:.9rem}
-  label{font-size:.85rem;font-weight:600;color:var(--ink);display:block;margin-bottom:.35rem}
-  input,textarea,select{
-    width:100%;padding:.8rem .9rem;border:1px solid var(--line);border-radius:8px;
-    font:inherit;font-size:.95rem;background:#fff;color:var(--ink)
-  }
-  input:focus,textarea:focus,select:focus{outline:2px solid var(--accent);outline-offset:1px;border-color:var(--accent)}
-  textarea{min-height:120px;resize:vertical}
-  .form-note{font-size:.82rem;color:var(--body);margin:0}
+  .why{display:grid;grid-template-columns:1fr;gap:1.8rem}
+  .why > div{min-width:0}
+  .why h3{margin-bottom:.5rem;font-size:1.2rem}
+  .why p{margin:0;font-size:.97rem}
 
-  /* ---- Footer ---- */
-  footer{background:var(--dark);color:#8d94a5;padding:2.5rem 0;font-size:.88rem}
-  footer .wrap{display:flex;gap:1rem;justify-content:space-between;flex-wrap:wrap;align-items:center}
-  footer a{color:#cfd4df}
+  .info{display:grid;grid-template-columns:1fr;gap:.2rem;margin-top:1.6rem}
+  .info div{padding-top:.9rem;padding-bottom:.9rem;border-top:1px solid var(--line);font-size:.95rem}
+  .info strong{display:block;color:var(--ink);font-size:.78rem;letter-spacing:.14em;
+    text-transform:uppercase;margin-bottom:.25rem}
+  form{display:grid;gap:.9rem;margin-top:.5rem}
+  label{font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;font-weight:600;
+    color:var(--ink);display:block;margin-bottom:.35rem}
+  input,textarea,select{width:100%;padding:.85rem .9rem;border:1px solid var(--line);
+    border-radius:2px;font:inherit;font-size:.95rem;background:#fff;color:var(--ink)}
+  input:focus,textarea:focus,select:focus{outline:2px solid var(--accent);outline-offset:1px}
+  textarea{min-height:110px;resize:vertical}
+  .form-note{font-size:.82rem;margin:0}
 
-  /* ---- Sticky mobile call bar ---- */
-  .callbar{
-    position:fixed;left:0;right:0;bottom:0;z-index:70;background:var(--accent);
-    display:flex;align-items:center;justify-content:center;gap:.5rem;
-    padding:.95rem;color:#fff;text-decoration:none;font-weight:600;
-    box-shadow:0 -2px 16px rgba(0,0,0,.18)
-  }
-  body{padding-bottom:56px}
+  footer{border-top:1px solid var(--line);padding-top:2.2rem;padding-bottom:2.2rem;font-size:.85rem}
+  footer .wrap{display:flex;gap:1rem;justify-content:space-between;flex-wrap:wrap;min-width:0}
 
-  @media (min-width:720px){
-    .grid{grid-template-columns:repeat(3,1fr)}
+  .callbar{position:fixed;left:0;right:0;bottom:0;z-index:70;background:var(--ink);
+    display:flex;align-items:center;justify-content:center;gap:.5rem;padding:.95rem;
+    color:var(--paper);text-decoration:none;font-weight:600;font-size:.95rem}
+
+  @media (min-width:800px){
     .nav-links{display:flex}
     .nav > .btn{display:inline-block}
-    .contact-grid{grid-template-columns:1fr 1.1fr;gap:3.5rem}
+    .facts{grid-template-columns:repeat(3,1fr);gap:0 2rem}
+    .two{grid-template-columns:1fr 1fr;gap:4rem}
+    .svc{grid-template-columns:1fr 1fr;gap:3.5rem}
+    .svc:nth-child(even) img{order:2}
+    .why{grid-template-columns:repeat(3,1fr);gap:2.6rem}
     .callbar{display:none}
     body{padding-bottom:0}
   }
-  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
 </style>
 </head>
 <body>
 
-<!-- PREVIEW BAR: delete this block when the site goes live on the client's own domain -->
+<!-- PREVIEW BAR: delete when the site goes live on the client's own domain -->
 <div class="gs-bar">
   <div class="wrap">
     <span><strong>Preview site</strong> built for Aria Auto Repair by Jackstand. Wording is our draft, not yours yet.</span>
@@ -162,7 +128,7 @@
 
 <header>
   <div class="wrap nav">
-    <a class="brand" href="#top">Aria<span>.</span></a>
+    <a class="brand" href="#top">Aria</a>
     <nav class="nav-links">
       <a href="#services">Services</a>
       <a href="#why">Why us</a>
@@ -179,35 +145,46 @@
     <p class="lede">A full service shop on Reseda Blvd handling cars, trucks and SUVs, foreign and domestic, with the diagnosis explained before the work starts.</p>
     <div class="hero-cta">
       <a class="btn btn-lg" href="tel:+18189848853">Call (818) 984-8853</a>
-      <a class="btn btn-ghost btn-lg" href="#contact">Book an appointment</a>
+      <a class="btn btn-ghost btn-lg" href="#contact">Request a quote</a>
     </div>
-    <div class="trust">
-      <div><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.2l-3.5-3.5-1.4 1.4L9 19 20 8l-1.4-1.4z"/></svg> Cars, trucks and SUVs</div>
-      <div><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.2l-3.5-3.5-1.4 1.4L9 19 20 8l-1.4-1.4z"/></svg> Foreign and domestic</div>
-      <div><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.2l-3.5-3.5-1.4 1.4L9 19 20 8l-1.4-1.4z"/></svg> Open six days</div>
+  </div>
+  <img class="hero-img" src="https://images.unsplash.com/photo-1591278169757-deac26e49555?auto=format&fit=crop&w=1600&q=70" alt="" style="margin-top:clamp(2rem,5vw,3.5rem)">
+  <div class="wrap">
+    <div class="facts">
+      <div class="fact"><b>01</b><span>Cars, trucks and SUVs</span></div>
+      <div class="fact"><b>02</b><span>Foreign and domestic</span></div>
+      <div class="fact"><b>03</b><span>Open six days</span></div>
     </div>
   </div>
 </section>
 
 <section class="section" id="services">
   <div class="wrap">
-    <div class="section-head">
+    <div class="two" style="margin-bottom:1rem">
       <h2>What we do</h2>
-      <p>Comprehensive maintenance, diagnostics and repair, on whatever is parked outside.</p>
+      <p class="lead">Comprehensive maintenance, diagnostics and repair, on whatever is parked outside.</p>
     </div>
-    <div class="grid">
-      <div class="card">
-        <div class="ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm1 15h-2v-2h2zm0-4h-2V7h2z"/></svg></div>
+
+    <div class="svc">
+      <img src="https://images.unsplash.com/photo-1711386689622-1cda23e10217?auto=format&fit=crop&w=900&q=70" alt="" loading="lazy">
+      <div>
+        <div class="num">01</div>
         <h3>Diagnostics and repair</h3>
         <p>The fault found and explained in plain terms before anyone reaches for a part.</p>
       </div>
-      <div class="card">
-        <div class="ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm1 15h-2v-2h2zm0-4h-2V7h2z"/></svg></div>
+    </div>
+    <div class="svc">
+      <img src="https://images.unsplash.com/photo-1728474751252-9c085659f6ab?auto=format&fit=crop&w=900&q=70" alt="" loading="lazy">
+      <div>
+        <div class="num">02</div>
         <h3>Maintenance</h3>
         <p>Servicing that keeps the car reliable rather than merely legal.</p>
       </div>
-      <div class="card">
-        <div class="ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm1 15h-2v-2h2zm0-4h-2V7h2z"/></svg></div>
+    </div>
+    <div class="svc">
+      <img src="https://images.unsplash.com/photo-1610092708835-af669294f3f3?auto=format&fit=crop&w=900&q=70" alt="" loading="lazy">
+      <div>
+        <div class="num">03</div>
         <h3>Trucks and SUVs</h3>
         <p>Larger vehicles handled with the same diagnosis-first approach.</p>
       </div>
@@ -215,55 +192,43 @@
   </div>
 </section>
 
-<section class="section alt" id="why">
+<hr class="rule">
+
+<section class="section" id="why">
   <div class="wrap">
-    <div class="section-head">
-      <h2>Why Reseda calls us first</h2>
-      <p>There are other shops within a few minutes of here. This is what a customer actually notices.</p>
+    <div class="two" style="margin-bottom:2.6rem">
+      <h2>Why here</h2>
+      <p class="lead">There are other shops within a few minutes of here. This is what a customer actually notices.</p>
     </div>
-    <div class="grid">
-      <div class="card"><h3>You hear the price first</h3><p>The quote comes before the work, and nothing gets done without you agreeing to it.</p></div>
-      <div class="card"><h3>Someone answers</h3><p>A person picks up during opening hours, and a missed call gets returned the same day.</p></div>
-      <div class="card"><h3>The old parts stay</h3><p>Whatever came off the car is there to look at if you want to see it.</p></div>
+    <div class="why">
+      <div><h3>You hear the price first</h3><p>The quote comes before the work, and nothing gets done without you agreeing to it.</p></div>
+      <div><h3>Someone answers</h3><p>A person picks up during opening hours, and a missed call gets returned the same day.</p></div>
+      <div><h3>The old parts stay</h3><p>Whatever came off the car is there to look at if you want to see it.</p></div>
     </div>
   </div>
 </section>
 
-<section class="section alt" id="contact">
+<hr class="rule">
+
+<section class="section" id="contact">
   <div class="wrap">
-    <div class="contact-grid">
+    <div class="two">
       <div>
         <h2>Get in touch</h2>
-        <p style="margin-top:.9rem">Call for anything urgent. For a quote or a booking the form reaches the desk directly.</p>
-        <div style="margin-top:1.5rem">
-          <div class="info-row">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8a15 15 0 006.6 6.6l2.2-2.2a1 1 0 011-.2 11 11 0 003.5.6 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11 11 0 00.6 3.5 1 1 0 01-.3 1z"/></svg>
-            <div><strong>Phone</strong><span><a href="tel:+18189848853" style="text-decoration:none">(818) 984-8853</a></span></div>
-          </div>
-          <div class="info-row">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a7 7 0 00-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 00-7-7zm0 9.5A2.5 2.5 0 1112 6.5a2.5 2.5 0 010 5z"/></svg>
-            <div><strong>Address</strong><span>6723 Reseda Blvd E, Reseda, CA 91335</span></div>
-          </div>
-          <div class="info-row">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm1 10.6l4 2.3-.8 1.4-5.2-3V6h2z"/></svg>
-            <div><strong>Hours</strong><span>Mon-Fri 8am-6pm · Sat 8am-2pm · Closed Sunday</span></div>
-          </div>
+        <p style="margin-top:1.1rem">Call for anything urgent. For a quote or a booking the form reaches the desk directly.</p>
+        <div class="info">
+          <div><strong>Phone</strong><a href="tel:+18189848853" style="text-decoration:none">(818) 984-8853</a></div>
+          <div><strong>Address</strong>6723 Reseda Blvd E, Reseda, CA 91335</div>
+          <div><strong>Hours</strong>Mon-Fri 8am-6pm · Sat 8am-2pm · Closed Sunday</div>
         </div>
       </div>
-
       <div>
         <!-- Netlify Forms: submissions land in the Netlify dashboard, no backend needed. -->
         <form name="aria-auto-repair-contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
           <input type="hidden" name="form-name" value="aria-auto-repair-contact">
           <p style="display:none"><label>Leave blank: <input name="bot-field"></label></p>
-          <div>
-            <label for="name">Your name</label>
-            <input id="name" name="name" type="text" required autocomplete="name">
-          </div>
-          <div>
-            <label for="phone">Phone</label>
-            <input id="phone" name="phone" type="tel" required autocomplete="tel">
-          </div>
+          <div><label for="name">Your name</label><input id="name" name="name" type="text" required autocomplete="name"></div>
+          <div><label for="phone">Phone</label><input id="phone" name="phone" type="tel" required autocomplete="tel"></div>
           <div>
             <label for="service">What do you need?</label>
             <select id="service" name="service">
@@ -273,11 +238,8 @@
               <option>Something else</option>
             </select>
           </div>
-          <div>
-            <label for="message">Details</label>
-            <textarea id="message" name="message" placeholder="Year, make and model, plus what's going on."></textarea>
-          </div>
-          <button class="btn btn-lg" type="submit" style="cursor:pointer">Request a callback</button>
+          <div><label for="message">Details</label><textarea id="message" name="message" placeholder="Year, make and model, plus what is going on."></textarea></div>
+          <button class="btn btn-lg" type="submit">Request a callback</button>
           <p class="form-note">We usually reply within one business hour.</p>
         </form>
       </div>
@@ -292,11 +254,7 @@
   </div>
 </footer>
 
-<a class="callbar" href="tel:+18189848853">
-  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8a15 15 0 006.6 6.6l2.2-2.2a1 1 0 011-.2 11 11 0 003.5.6 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11 11 0 00.6 3.5 1 1 0 01-.3 1z"/></svg>
-  Call (818) 984-8853
-</a>
-
+<a class="callbar" href="tel:+18189848853">Call (818) 984-8853</a>
 <script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
 </body>
 </html>

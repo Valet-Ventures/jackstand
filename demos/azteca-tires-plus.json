@@ -1,5 +1,5 @@
 {
-  "_template": "auto-prospect",
+  "_template": "auto-bold",
   "SLUG": "azteca-tires-plus",
   "BUSINESS_NAME": "Azteca Tires Plus #2",
   "BUSINESS_NAME_SHORT": "Azteca Tires",
@@ -29,5 +29,9 @@
   "WHY_2_BODY": "A person picks up during opening hours, and a missed call gets returned the same day.",
   "WHY_3_TITLE": "The old parts stay",
   "WHY_3_BODY": "Whatever came off the car is there to look at if you want to see it.",
-  "CONTACT_INTRO": "Call for anything urgent. For a quote or a booking the form reaches the desk directly."
+  "CONTACT_INTRO": "Call for anything urgent. For a quote or a booking the form reaches the desk directly.",
+  "HERO_IMG": "https://images.unsplash.com/photo-1578844251758-2f71da64c96f?auto=format&fit=crop&w=1600&q=70",
+  "IMG_1": "https://images.unsplash.com/photo-1571335746824-742511d49bce?auto=format&fit=crop&w=900&q=70",
+  "IMG_2": "https://images.unsplash.com/photo-1506022991996-a56ff643eade?auto=format&fit=crop&w=900&q=70",
+  "IMG_3": "https://images.unsplash.com/photo-1599082267768-4815b2ea6bd2?auto=format&fit=crop&w=900&q=70"
 }
